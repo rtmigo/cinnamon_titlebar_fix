@@ -4,7 +4,7 @@ from pathlib import Path
 
 def confirm(message: str) -> bool:
     answer = ""
-    while answer not in ["y", "n"]:
+    while answer not in ("y", "n"):
         answer = input(message.strip() + " ").lower()
     return answer == "y"
 
@@ -20,6 +20,8 @@ def backup_file(source: Path) -> None:
 gtk_css_file = Path(os.path.expanduser("~/.config/gtk-3.0/gtk.css"))
 
 css_1_4 = """
+/* https://github.com/rtmigo/cinnamon_titlebar_fix */
+
 headerbar {
 	min-height: 36px;
 }
