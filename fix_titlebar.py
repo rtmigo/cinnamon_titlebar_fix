@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: (c) 2023 Artёm iG <github.com/rtmigo>
+# SPDX-License-Identifier: MIT
+
 import os.path
 import shutil
 from pathlib import Path
