@@ -38,7 +38,7 @@ def fix():
         backup_file(gtk_css_file)
     print(f"Updating {gtk_css_file}")
     gtk_css_file.write_text(css_1_4)
-    print("Done. Restart Cinnamon to see effect (try Ctrl+Alt+Esc).")
+    print("Done. Restart Cinnamon to see effect (try Ctrl+Alt+Esc)")
 
 
 if __name__ == '__main__':
