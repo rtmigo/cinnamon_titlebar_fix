@@ -6,6 +6,8 @@ Tested in **Linux Mint 21.1**.
 
 ## Set buttons to 140%
 
+In Terminal run:
+
 ```bash
 wget -qO- https://raw.githubusercontent.com/rtmigo/cinnamon_titlebar_fix/dev/fix_titlebar.py > /tmp/fix_titlebar.py \
   && python3 /tmp/fix_titlebar.py 
