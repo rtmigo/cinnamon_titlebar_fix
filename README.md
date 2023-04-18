@@ -1,6 +1,6 @@
 # [cinnamon_titlebar_fix](https://github.com/rtmigo/cinnamon_titlebar_fix)
 
-Sets the size of buttons in **Cinnamon** title bar to 140%.
+Sets the size of buttons in **Cinnamon Desktop** title bar to 140%.
 
 Tested in **Linux Mint 21.1**.
 
@@ -10,7 +10,7 @@ In Terminal run:
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/rtmigo/cinnamon_titlebar_fix/master/fix_titlebar.py > /tmp/fix_titlebar.py \
-  && python3 /tmp/fix_titlebar.py 
+  && python3 /tmp/fix_titlebar.py  
 ```
 
 That's all. After that, **restart Cinnamon** (Ctrl+Alt+Esc).
