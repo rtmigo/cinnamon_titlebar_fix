@@ -9,8 +9,8 @@ Tested in **Linux Mint 21.1**.
 In Terminal run:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/rtmigo/cinnamon_titlebar_fix/master/fix_titlebar.py > /tmp/fix_titlebar.py \
-  && python3 /tmp/fix_titlebar.py  
+wget -qO- https://raw.githubusercontent.com/rtmigo/cinnamon_titlebar_fix/master/fix_titlebar.py > "/tmp/${USER}_fix_titlebar.py" \
+  && python3 /tmp/${USER}_fix_titlebar.py  
 ```
 
 That's all. After that, **restart Cinnamon** (Ctrl+Alt+Esc).
