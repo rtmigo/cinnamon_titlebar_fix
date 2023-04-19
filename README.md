@@ -1,6 +1,6 @@
 # [cinnamon_titlebar_fix](https://github.com/rtmigo/cinnamon_titlebar_fix)
 
-Tweak for **Cinnamon Desktop**. Tested it **Linux Mint 21.1**. 
+Tweak for **Cinnamon Desktop**. Tested in **Linux Mint 21.1**. 
 
 A one-line command that makes title bar bigger. 
 
