@@ -42,8 +42,8 @@ will be saved next to original file in the directory `~/.config/gtk-3.0/`.
 
 ## Why 140%
 
-Enlarging the buttons makes the icons slightly blurry. There may also be issues
-with alignment.
+We're slightly limited in scale because zooming the icons makes them blurry. 
+There may also be issues with alignment.
 
 At the moment, it was 140% that seemed to me the best compromise.
 
