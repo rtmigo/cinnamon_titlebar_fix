@@ -5,7 +5,7 @@ Tweak for **Cinnamon Desktop**. Tested in **Linux Mint 21.1**.
 A one-line command that makes title bar bigger. 
 
 Namely, "minimize", "maximize", "close" buttons will be enlarged to 140%. 
-It makes the title bar more suitable for HiDPI monitors.
+It makes the title bar more suitable for HiDPI screens.
 
 ## Set buttons to 140%
 
