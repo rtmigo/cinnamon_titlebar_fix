@@ -36,4 +36,4 @@ file. If may exist if you already tried to manually customize Cinnamon.
 ## Old gtk.css
 
 If you had `~/.config/gtk-3.0/gtk.css` before running the script, its backup 
-will be saved under name `~/.config/gtk-3.0/gtk.css/.bak{N}`.
+will be saved next to original file in the directory `~/.config/gtk-3.0/`.
