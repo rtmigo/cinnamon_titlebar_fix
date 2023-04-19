@@ -1,8 +1,11 @@
 # [cinnamon_titlebar_fix](https://github.com/rtmigo/cinnamon_titlebar_fix)
 
-Sets the size of buttons in **Cinnamon Desktop** title bar to 140%.
+Tweak for **Cinnamon Desktop**. Tested it **Linux Mint 21.1**. 
 
-Tested in **Linux Mint 21.1**.
+A one-line command that makes title bar bigger. 
+
+Namely, "minimize", "maximize", "close" buttons will be enlarged to 140%. 
+It makes the title bar more suitable for HiDPI monitors.
 
 ## Set buttons to 140%
 
@@ -15,11 +18,6 @@ wget -qO- https://raw.githubusercontent.com/rtmigo/cinnamon_titlebar_fix/master/
 
 That's all. After that, **restart Cinnamon** (Ctrl+Alt+Esc).
 
-##  What this script does
-
-It **overwrites** the `~/.config/gtk-3.0/gtk.css`. By default, there is no such 
-file. If may exist if you already tried to manually customize Cinnamon.
-
 ## Set buttons to default 100%
 
 If you want to restore original title bar, just run
@@ -29,6 +27,11 @@ rm ~/.config/gtk-3.0/gtk.css
 ```
 
 and restart Cinnamon.
+
+##  What this script does
+
+It **overwrites** the `~/.config/gtk-3.0/gtk.css`. By default, there is no such 
+file. If may exist if you already tried to manually customize Cinnamon.
 
 ## Old gtk.css
 
